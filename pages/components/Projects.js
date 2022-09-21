@@ -35,7 +35,7 @@ const Projects = () => {
       </button>
     </a>
     </div>
-        <Image src={afro_image} layout='responsive' />
+        <Image src={afro_image} layout='responsive' placeholder='blur' />
         <div className='className="w-full px-2"'>
         <Tab.Group>
         <Tab.List>
@@ -126,7 +126,7 @@ const Projects = () => {
           </button>
         </a>
         </div>
-        <Image src={lens_image} layout='responsive' />
+        <Image src={lens_image} layout='responsive' placeholder='blur' />
         <div className='className="w-full px-2"'>
         <Tab.Group>
         <Tab.List>
@@ -217,7 +217,7 @@ const Projects = () => {
           </button>
         </a>
         </div>
-        <Image src={church_image} layout='responsive' />
+        <Image src={church_image} layout='responsive' placeholder='blur' />
         <div className='className="w-full px-2"'>
         <Tab.Group>
         <Tab.List>
