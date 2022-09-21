@@ -25,7 +25,7 @@ const Home = () => {
         Full-Stack Developer
       </p>
       <div className='flex flex-col gap-4 mt-4 justify-around max-w-xl mx-auto'>
-      <a href='https://github.com/femiorok'>
+      <a href='https://www.dropbox.com/s/p8m4fr1seaz6fl6/webdeveloper.pdf?dl=0'>
       <button className='border-2 border-blue-500 rounded-md py-2 px-4 font-semibold shadow-lg shadow-indigo-500/50 text-white'>
         Resume
       </button>
