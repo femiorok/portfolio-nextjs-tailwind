@@ -12,31 +12,41 @@ const Home = () => {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
-      <main className="w-full content">
       <Navbar />
-      <div className="name gap-5 w-full px-4 mx-auto h-[100vh] flex flex-col justify-center">
-      <p className="text-center font-extrabold text-6xl xl:text-8xl uppercase bg-clip-text bg-gradient-to-br from-[#00C2FF] to to-[#0066FF] text-transparent"
+      <main className="w-full content">
+      <div className="gap-5 w-full px-4 mx-auto h-[100vh] flex flex-col justify-center">
+      <p className=" name text-center font-extrabold text-6xl xl:text-8xl bg-clip-text text-transparent uppercase"
       >
         Femi Orokunle
       </p>
-      <p className="text-center font-extrabold text-5xl uppercase  bg-clip-text bg-gradient-to-br from-[#00C2FF] to to-[#0066FF] text-transparent"
+      <p className="text-center font-extrabold text-5xl uppercase text-white"
       >
-        Full-Stack Developer
+        Front-End Developer
       </p>
       <div className='flex flex-col gap-4 mt-4 justify-around max-w-xl mx-auto'>
-      <a href='https://www.dropbox.com/s/p8m4fr1seaz6fl6/webdeveloper.pdf?dl=0'>
-      <button className='border-2 border-blue-500 rounded-md py-2 px-4 font-semibold shadow-lg shadow-indigo-500/50 text-white'>
+      <a href='https://www.dropbox.com/s/p8m4fr1seaz6fl6/webdeveloper.pdf?dl=0' target="_blank">
+      <div className='relative group'>
+      <div className='opacity-0 group-hover:opacity-100 duration-500 transition-all w-full h-full group-hover:absolute bg bg-gradient-to-br from-cyan-400 via-blue-500 to-purple-600 blur-md inset-0 rounded-md'></div>
+      <button className='relative bg-black rounded-md w-32 h-12 font-semibold text-white hover:text-blue-500 transition-all'>
         Resume
       </button>
+      </div>
       </a>
-      <button className='border-2 border-blue-500 rounded-md py-2 px-4 font-semibold shadow-lg shadow-indigo-500/50 text-white'>
+      <a href='https://www.dropbox.com/s/p8m4fr1seaz6fl6/webdeveloper.pdf?dl=0' target="_blank">
+      <div className='relative group'>
+      <div className='opacity-0 group-hover:opacity-100 duration-500 transition-all w-full h-full absolute bg bg-gradient-to-br from-cyan-400 via-blue-500 to-purple-600 blur-md inset-0 rounded-md'></div>
+      <button className='relative bg-black rounded-md w-32 h-12 font-semibold text-white hover:text-blue-500 transition-all'>
         Github
       </button>
-      <a href='https://www.linkedin.com/in/femi-orokunle-2211841b3/'>
-      <button className='border-2 border-blue-500 rounded-md py-2 px-4 font-semibold shadow-lg shadow-indigo-500/50 text-white'>
+      </div>
+      </a>
+      <a href='https://www.linkedin.com/in/femi-orokunle-2211841b3/' target="_blank">
+      <div className='relative group'>
+      <div className='opacity-0 group-hover:opacity-100 duration-500 transition-all w-full h-full absolute bg bg-gradient-to-br from-cyan-400 via-blue-500 to-purple-600 blur-md inset-0 rounded-md'></div>
+      <button className='relative bg-black rounded-md w-32 h-12 font-semibold text-white hover:text-blue-500 transition-all'>
         LinkedIn
       </button>
+      </div>
       </a>
       
       </div>
