@@ -13,9 +13,10 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <main className="w-full content">
-      <div className="gap-5 w-full px-4 mx-auto h-[100vh] flex flex-col justify-center">
-      <p className=" name text-center font-extrabold text-6xl xl:text-8xl bg-clip-text text-transparent uppercase"
+      <main className="w-full content relative">
+      <div className='w-full h-[80vh] canvas absolute z-0'></div>
+      <div className="gap-5 w-full px-4 mx-auto h-[100vh] flex flex-col justify-center z-10">
+      <p className=" name text-center font-extrabold text-6xl xl:text-8xl bg-clip-text text-neutral-100 uppercase "
       >
         Femi Orokunle
       </p>

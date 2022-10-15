@@ -10,18 +10,40 @@ body {
   background-color: black;
 }
 
-.name {
+/* .name {
   background-image: radial-gradient(circle, rgba(68,186,255,1) 0%, rgba(68,76,255,1) 26%, rgba(189,49,255,1) 59%, rgba(2,0,246,1) 100%);	background-clip: text;
   background-size: 800%;
   background-repeat: no-repeat;
   animation: 10s infinite alternate-reverse gradient 
+} */
+
+.canvas {
+  z-index: -1;
+  clip-path: polygon(0 0, 100% 0, 100% 40%, 0% 100%);
+  background-color:hsla(216,85%,34%,1);
+  background-image:
+  radial-gradient(at 60% 24%, hsla(231,53%,40%,1) 0px, transparent 50%),
+  radial-gradient(at 1% 97%, hsla(227,89%,54%,1) 0px, transparent 50%),
+  radial-gradient(at 69% 100%, hsla(186,70%,50%,1) 0px, transparent 50%),
+  radial-gradient(at 0% 0%, hsla(198,97%,48%,1) 0px, transparent 50%);
+  background-size: 300%;
+  animation: 15s 0.5s ease-in-out infinite alternate gradient;
 }
 
 @keyframes gradient {
   0% {
     background-position: left;
   }
-  100% {
+
+  25% {
+    background-position: top;
+  }
+
+  75% {
     background-position: right;
+  }
+
+  100% {
+    background-position: bottom;
   }
 }
